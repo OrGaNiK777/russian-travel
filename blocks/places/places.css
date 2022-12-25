@@ -1,0 +1,9 @@
+.places {
+    margin: auto;
+    margin-bottom: 80px;
+    max-width: 984px;
+    max-height: 660px;
+    display: grid;
+    grid-template-areas:    "places__title places__link"
+                            "places__image places__paragraph";
+}

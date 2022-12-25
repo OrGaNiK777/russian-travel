@@ -1,0 +1,12 @@
+.photo-grid__item {
+    width: 284px;
+    height: 213px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+}
+.photo-grid__item:nth-child(4n) {
+    margin-right: 0;
+}
+.photo-grid__item:nth-child(n+9) {
+    margin-bottom: 0;
+}

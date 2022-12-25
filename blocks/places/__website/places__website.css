@@ -1,0 +1,9 @@
+.places__website {
+    margin: 0;
+    margin-bottom: 45px;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    justify-content: end;
+    
+}
