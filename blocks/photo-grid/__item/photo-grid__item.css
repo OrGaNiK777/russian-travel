@@ -3,6 +3,7 @@
     height: 213px;
     margin-right: 16px;
     margin-bottom: 16px;
+    
 }
 .photo-grid__item:nth-child(4n) {
     margin-right: 0;
