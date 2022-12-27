@@ -5,3 +5,11 @@
     max-height: 429px;
     
 }
+
+@media screen and (max-width: 1024px) {
+    
+    .intro {    
+    width: 928px;
+
+    }
+}

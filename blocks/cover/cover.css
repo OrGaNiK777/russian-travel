@@ -25,3 +25,10 @@
 .cover:hover::before {
     opacity: 0.5;
 }
+
+@media screen and (max-width: 1024px) { 
+    .cover {
+        max-width: 1024px;
+        max-height: 640px;
+    }
+}

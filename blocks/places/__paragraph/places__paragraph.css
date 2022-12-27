@@ -14,3 +14,9 @@
 .places__paragraph:nth-of-type(even) {
     margin-bottom: 0;
 }
+
+@media screen and (max-width: 1024px) { 
+    .places__paragraph {
+    margin-left: 30px;
+    }
+}

@@ -1,8 +1,18 @@
 .lead__image {
     margin: 0;
     margin-top: 64px;
-    width: 984px;
-    height: 615px;
+    max-width: 984px;
+    max-height: 615px;
     font-weight: normal;
     text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .lead__image {
+    margin-top: 55px;
+    max-width: 928px;
+    max-height: 580px;
+    }
+
 }
