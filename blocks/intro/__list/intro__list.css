@@ -8,5 +8,10 @@
     font-size: 12px;
     line-height: 18px;
     color: #FFFFFF;
-    max-width: 690px;
+}
+
+@media screen and (max-width: 768px) {
+    .intro__list {
+    
+    }
 }

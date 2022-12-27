@@ -14,3 +14,11 @@
     }
 
 }
+
+@media screen and (max-width: 768px) {
+    .lead {
+    margin-top: 38px;
+    max-width: 768px;
+    max-height: 862px;
+    }
+}
