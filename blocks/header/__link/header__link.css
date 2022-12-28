@@ -11,3 +11,9 @@
     margin-right: 0;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .header__link {
+    margin-right: 17px;
+    }
+}

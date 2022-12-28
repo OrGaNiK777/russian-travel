@@ -11,3 +11,11 @@
 .header__link_lang-link:last-child {
     margin-right: 0;
 }
+
+@media screen and (max-width: 320px) {
+    .header__link_lang-link {
+        font-size: 18px;
+        line-height: 20px;
+        text-decoration-line: underline;
+    }
+}

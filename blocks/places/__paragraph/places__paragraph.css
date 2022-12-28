@@ -20,3 +20,11 @@
     margin-left: 30px;
     }
 }
+
+@media screen and (max-width: 768px) { 
+    .places__paragraph {
+        font-weight: 350;
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+}

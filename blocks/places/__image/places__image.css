@@ -10,3 +10,20 @@
     max-height: 440px;
     }
 }
+
+@media screen and (max-width: 768px) { 
+    .places__image {
+    max-width: 340x;
+    max-height: 340px;
+    }
+}
+
+@media screen and (max-width: 320px) { 
+    .places__image {
+    max-width: 320px;
+    max-height: 320px;
+    }
+}
+
+
+

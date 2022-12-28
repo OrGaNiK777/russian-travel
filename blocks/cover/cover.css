@@ -32,3 +32,19 @@
         max-height: 640px;
     }
 }
+
+@media screen and (max-width: 768px) { 
+    .cover {
+        max-width: 768px;
+        max-height: 480px;
+        margin-top: 55px;
+    }
+}
+
+@media screen and (max-width: 320px) { 
+    .cover {
+        max-width: 320px;
+        max-height: 200px;
+        /* margin-top: 20px; */
+    }
+}
