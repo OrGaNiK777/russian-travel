@@ -2,7 +2,7 @@
     margin: 0;
     margin-top: 64px;
     max-width: 984px;
-    max-height: 615px;
+    min-height: 615px;
     font-weight: normal;
     text-align: center;
 }
@@ -12,7 +12,7 @@
     .lead__image {
         margin-top: 55px;
         max-width: 928px;
-        max-height: 580px;
+        min-height: 580px;
     }
 }
 
@@ -20,7 +20,7 @@
     .lead__image {
         margin-top: 55px;
         max-width: 768px;
-        max-height: 480px;
+        min-height: 480px;
     }
 }
 
@@ -28,6 +28,6 @@
     .lead__image {
         margin-top: 40px;
         max-width: 320px;
-        max-height: 200px;
+        min-height: 200px;
     }
 }
