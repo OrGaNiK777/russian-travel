@@ -8,11 +8,17 @@
     line-height: 28px;
     margin-right: 18px;
 }
+
+.header__link_lang-link:hover {
+    transition: opacity 0.3s;
+    opacity: .5 ;
+}
+
 .header__link_lang-link:last-child {
     margin-right: 0;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .header__link_lang-link {
         font-size: 18px;
         line-height: 20px;

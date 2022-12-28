@@ -3,10 +3,9 @@
     margin-top: 46px;
     max-width: 984px;
     max-height: 1005px;    
-
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
     .lead {
     margin-top: 38px;
     max-width: 928px;
@@ -15,14 +14,14 @@
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .lead {
     max-width: 768px;
     max-height: 862px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .lead {
     max-width: 320px;
     min-height: 200px;

@@ -11,7 +11,7 @@
     max-width: 690px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .intro__title {
         margin-top: 65px;
         font-size: 32px;

@@ -6,22 +6,22 @@
     
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
     .intro {    
-    width: 928px;
+        width: 928px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .intro {    
-    width: 720px;
+        width: 720px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .intro {    
-    width: 288px;
-    min-height: 754px;
+        width: 288px;
+        min-height: 754px;
     }
 }
 
