@@ -11,13 +11,13 @@
 @import url(../blocks/footer/__link/_footer-link/footer__link_link-footer.css);
 
 @import url(../blocks/header/header.css);
-@import url(../blocks/header/__link/header__link.css);
-@import url(../blocks/header/__link/_lang-link/header__link_lang-link.css);
+@import url(../blocks/header/__links/header__links.css);
+@import url(../blocks/header/__links/_link/header__links_link.css);
 @import url(../blocks/header/__logo/header__logo.css);
 
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__list/intro__list.css);
-@import url(../blocks/intro/__list/_span/intro__list_span.css);
+@import url(../blocks/intro/__list/_span/intro__list_number.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__title/intro__title.css);
 
