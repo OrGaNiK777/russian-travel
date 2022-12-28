@@ -10,7 +10,7 @@
 }
 .footer__link_link-footer:hover {
     transition: opacity 0.3s;
-    opacity: .5 ;
+    opacity: .5;
 }
     
 .footer__link_link-footer:last-child {
