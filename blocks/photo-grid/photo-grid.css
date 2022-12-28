@@ -21,8 +21,9 @@
     .photo-grid {
     max-width: 720px;
     max-height: 1664px;
-    grid-template:repeat(6, 1fr)/repeat(2, 1fr);      
-    margin-bottom: 84px; 
+    grid-template:repeat(6, 1fr)/repeat(2, 1fr);     
+    margin-top: 87px; 
+    margin-bottom: 90px; 
     }
 }
 
