@@ -6,15 +6,11 @@
     font-size: 14px;
     line-height: 16px;
     color: #FFFFFF;
-}
-
-@media screen and (max-width: 1024px) { 
-    .footer__copyright {
     margin-right: 25px;
-    }  
 }
 
-@media screen and (max-width: 320px) { 
+
+@media screen and (max-width: 767px) { 
     .footer__copyright {
     margin-top: 48px;
     line-height: 14px;
