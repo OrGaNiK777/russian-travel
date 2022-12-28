@@ -12,3 +12,12 @@
     max-height: 152px;
     z-index: 2;
 }
+
+@media screen and (max-width: 320px) { 
+    .cover__title {
+    max-width: 250px;
+    font-size: 32px;
+    line-height: 35px;
+    margin-bottom: 16px;
+    }
+}

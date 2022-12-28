@@ -5,18 +5,17 @@
     margin-bottom: 16px;
     
 }
-.photo-grid__item:nth-child(4n) {
-    margin-right: 0;
-}
-.photo-grid__item:nth-child(n+9) {
+
+.photo-grid__item:last-child {
     margin-bottom: 0;
+    margin-right: 0;
 }
 
 @media screen and (max-width: 1024px) {
 
 .photo-grid__item {
-    width: 300px;
-    height: 225px;
+        width: 300px;
+        height: 225px;
     }
 }
 
@@ -25,5 +24,14 @@
     .photo-grid__item {
         width: 352px;
         height: 264px;
-        }
     }
+}
+@media screen and (max-width: 320px) {
+
+    .photo-grid__item {
+        width: 288px;
+        height: 216px;
+        margin-right: 0;
+        margin-bottom: 12px;
+    }
+}

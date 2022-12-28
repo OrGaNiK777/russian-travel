@@ -14,10 +14,10 @@
     }  
 }
 
-
-
-/* @media screen and (max-width: 1024px) { 
+@media screen and (max-width: 320px) { 
     .footer__copyright {
-    margin-right: 25px;
-    }  
-} */
+    margin-top: 48px;
+    line-height: 14px;
+    margin-left: 16px;
+    }    
+}

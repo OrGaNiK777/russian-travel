@@ -29,7 +29,10 @@
 
 @media screen and (max-width: 320px) { 
     .places {
+        display: flex;
+        flex-direction: column;
         max-width: 320px;
         max-height: 1042px;
+        margin-bottom: 50px;
     }
 }
