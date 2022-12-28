@@ -1,4 +1,4 @@
-.places__website {
+.place__website {
     margin: 0;
     margin-bottom: 45px;
     display: flex;
@@ -9,16 +9,16 @@
 }
 
 @media screen and (max-width: 1024px) { 
-    .places__website {
-    padding: 0;
-    margin-left: 30px;
+    .place__website {
+        padding: 0;
+        margin-left: 30px;
     }
 }
 
 @media screen and (max-width: 320px) { 
-    .places__website {
+    .place__website {
         padding: 0;
         margin-left: 16px;
         margin-bottom: 32px;
-        } 
+    } 
 }
