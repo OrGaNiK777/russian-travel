@@ -18,7 +18,7 @@
     position: absolute;
     height: 100%;
     width: 100%;
-    background: #000000 ;
+    background: #000000;
     opacity: 0;
     transition: opacity 0.5s;
 }
@@ -26,14 +26,14 @@
     opacity: 0.5;
 }
 
-@media screen and (max-width: 1279px) { 
+@media screen and (max-width: 1279px) {
     .cover {
     max-width: 1024px;
     max-height: 640px;
     }
 }
 
-@media screen and (max-width: 1023px) { 
+@media screen and (max-width: 1023px) {
     .cover {
     max-width: 768px;
     max-height: 480px;
@@ -41,7 +41,7 @@
     }
 }
 
-@media screen and (max-width: 767px) { 
+@media screen and (max-width: 767px) {
     .cover {
     max-width: 320px;
     max-height: 200px;
