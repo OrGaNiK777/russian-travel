@@ -1,31 +1,32 @@
 .place {
-    margin-bottom: 79px;
-    display: grid;
-    grid-template-areas:    "place__title place__link"
-                            "place__image place__paragraph";
+	margin-bottom: 79px;
+	display: grid;
+	grid-template-areas:
+		"place__title place__link"
+		"place__image place__paragraph";
 }
 .place:last-child {
-    margin-bottom: 0; 
+	margin-bottom: 0;
 }
 
-@media screen and (max-width: 1279px) { 
-    .place {
-        max-width: 928px;
-    }
+@media screen and (max-width: 1279px) {
+	.place {
+		max-width: 928px;
+	}
 }
 
-@media screen and (max-width: 1023px) { 
-    .place {
-        max-width: 720px;
-        margin-bottom: 71px;
-    }
+@media screen and (max-width: 1023px) {
+	.place {
+		max-width: 720px;
+		margin-bottom: 71px;
+	}
 }
 
-@media screen and (max-width: 767px) { 
-    .place {
-        display: flex;
-        flex-direction: column;
-        max-width: 320px;
-        margin-bottom: 50px;
-    }
+@media screen and (max-width: 767px) {
+	.place {
+		display: flex;
+		flex-direction: column;
+		max-width: 320px;
+		margin-bottom: 50px;
+	}
 }
