@@ -1,5 +1,5 @@
 .place {
-    margin-bottom: 80px;
+    margin-bottom: 79px;
     display: grid;
     grid-template-areas:    "place__title place__link"
                             "place__image place__paragraph";

@@ -1,7 +1,10 @@
 .footer__links {
     margin: 0;
     padding: 0;
+    max-width: 470px;
+    display: flex;   
 }
+
 @media screen and (max-width: 1279px) { 
     .footer__links {
      margin-right: 180px;
@@ -16,10 +19,8 @@
 
 @media screen and (max-width: 767px) { 
     .footer__links {
-    display: flex;
+    margin: 0;
     flex-direction: column;
-    justify-content: space-between;
     margin-left: 16px;
-    
     }
 }

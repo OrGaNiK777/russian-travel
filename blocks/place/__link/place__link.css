@@ -9,5 +9,5 @@
 
 .place__link:hover {
     transition: opacity 0.3s;
-    opacity: .5;
+    opacity: .8;
 }
