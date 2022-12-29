@@ -5,14 +5,13 @@
     margin-top: 92px;
     display: grid;
     grid-template:repeat(3, 1fr)/repeat(4, 1fr);
-    margin-bottom: 92px;
+    margin-bottom: 75px;
     
 }
 
 @media screen and (max-width: 1279px) {
     .photo-grid {
     max-width: 928px;
-    min-height: 942px;
     grid-template:repeat(4, 1fr)/repeat(3, 1fr);      
     }
 }
@@ -20,10 +19,9 @@
 @media screen and (max-width: 1023px) {
     .photo-grid {
     max-width: 720px;
-    min-height: 1664px;
     grid-template:repeat(6, 1fr)/repeat(2, 1fr);
     margin-top: 87px;
-    margin-bottom: 90px; 
+    margin-bottom: 79px; 
     }
 }
 
@@ -34,6 +32,5 @@
     align-items: center;
     margin-bottom: 62px;
     margin-top: 65px;
-    min-height: 2724px;
     }
 }

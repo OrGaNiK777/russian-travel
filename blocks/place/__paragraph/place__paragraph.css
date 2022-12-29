@@ -4,13 +4,13 @@
     margin-left: 40px;
     max-width: 500px;
     margin-bottom: 26px;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 163%;
     color: #FFFFFF;
 }
+
 .place__paragraph:nth-of-type(even) {
     margin-bottom: 0;
 }
